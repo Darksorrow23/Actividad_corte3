@@ -75,5 +75,12 @@ Animales_Acuaticos.mostrar();
 console.log("-----Eliminados--------");
 Animales_Acuaticos.eliminar("Ballena");
 Animales_Acuaticos.mostrar();
+console.log("----------");
+Animales_Acuaticos.agregar("Delfin");
+Animales_Acuaticos.modificar("Delfin", "Tortuga");
+Animales_Acuaticos.mostrar();
+console.log("----------");
 
+Animales_Acuaticos.eliminar("Tortuga");
+Animales_Acuaticos.mostrar();
 
